@@ -1,0 +1,33 @@
+.contenedorClase3 {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+
+    display:grid;                                     /* crea una grilla vacia*/
+    /* grid-template-columns: 100px 200px 300px; */   /* creamos 3 columnas en la grilla */
+    /* grid-template-rows: 150px 250px; */            /* colocamos tamaño de las filas */
+
+    /* grid-auto-rows: 150px;  */                     /* colocamos tamaño de todas las filas a 150px*/
+    grid-auto-flow: column;                     /* modifica el orden en el que se llena la grilla */
+    grid-template-rows: 100px 200px;            /* creamos 2 filas en la grilla */
+    grid-auto-columns: 100px;                      /* colocamos tamaño de todas las columnas a 100px*/
+
+    /* row-gap: 15px;  */                             /* Crea espacio de 15px entre cada fila */
+    /* column-gap: 30px; */                           /* Crea espacio de 30px entre cada columna */
+    gap: 40px;                                  /* Crea espacios de 40 px entre cada fila y columna */
+}
+
+.contenedor {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    
+    display:grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 200px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 30px;
+}
+
+.item{
+    border: 5px solid #00bcd4;
+    font-size: 4rem;
+}
